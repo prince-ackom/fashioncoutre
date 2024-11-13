@@ -1,0 +1,134 @@
+body{
+  background-color: #d8e6ed;
+  margin: 0;
+  padding: 0;
+  
+}
+.name{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  margin-left: 10px;
+}
+.hh{
+  display: inline-block;
+
+}
+.find{
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 180px;
+    margin-left: 50px;
+    animation: slideInLeft 1s ease-in  1 normal none;
+    
+    
+  
+}
+.your{
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 180px;
+  margin-left: 400px;
+  animation: slideInLeft 1s ease-in  1 normal none;
+  
+
+
+}
+.vibe{
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 170px;
+  margin-left: 700px;
+  animation: slideInLeft 1s ease-in  1 normal none;
+
+}
+@keyframes slideInLeft{
+  from{
+    transform:translateX(-300px)
+  }
+  to{
+    transform:translateX(0)
+  }
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  text-decoration: none;
+}
+#list{
+  list-style: none;
+  margin: 10px;
+  margin-top: 28px;
+}
+a{
+  text-decoration: none;
+}
+#nn{
+  text-decoration: none;
+  color: burlywood;
+}
+#Home{
+  height: 770px;
+  
+  
+}
+#first-pic{
+  width: 450px;
+  height: 400px;
+  transform: rotate(15deg);
+  position: absolute; left:900px;
+}
+.dot{
+  height: 150px;
+  width: 150px;
+  border-radius: 70%;
+  display: inline-block;
+}
+#circle{
+  position: absolute; left:1200px;top: 600px;
+}
+#speaks{
+  position: absolute;left: 170px;top: 670px;
+  font-family: "lilitaone", system-ui;
+}
+@media(max-width:600px) {
+  section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+    
+    
+}
+#Shop{
+  height: 770px;
+  background-color: tomato;
+}
+#head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  
+}
+#Shop-link{
+  margin: 5px;
+}
